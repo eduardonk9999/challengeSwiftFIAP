@@ -40,7 +40,7 @@ img {
     font-size: 50.2%;
   }
 
-  .conteudoIa {
+  .conteudoIa, .btn_ia {
     flex-direction: column;
     align-items: center;
     text-align: center; 
