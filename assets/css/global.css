@@ -1,0 +1,50 @@
+@import url("");
+
+:root {
+  --colorMenu: #b8becd;
+  --colorMenuDark: #202336;
+  --colorMain: #fb8f1d;
+  --colorWhite: #fff;
+  --colortextP: #7d7987;
+  --colorBlack: #00000;
+  --colorPrincipal: #DC4405;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 1220px !important;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50.2%;
+  }
+
+  .conteudoIa {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+
+}
+
