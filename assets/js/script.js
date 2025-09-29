@@ -1,17 +1,15 @@
-let menuPrincipal = document.querySelector(".btn_ia"); 
-let menuIa = document.querySelector(".menuIa"); 
+const btn = document.querySelector('.receita_btn'); 
+const popup = document.querySelector('.receitaPrincipal');
+const backdrop = document.getElementById('backdrop');
+const closeBtn = popup.querySelector('.modal-close');
+
+const menuPrincipal = document.querySelector(".btn_ia"); 
+const menuIa = document.querySelector(".menuIa"); 
 
 menuPrincipal.addEventListener("click", (event) => {
     event.preventDefault();
     menuIa.classList.toggle("active");
 });
-
-
-
-const btn        = document.querySelector('.receita_btn'); 
-const popup      = document.querySelector('.receitaPrincipal');
-const backdrop   = document.getElementById('backdrop');
-const closeBtn   = popup.querySelector('.modal-close');
 
 function openPopup() {
   popup.classList.add('is-open');

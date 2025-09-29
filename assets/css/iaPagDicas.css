@@ -106,10 +106,26 @@ article.menuIa.active {
   backdrop-filter: blur(2px); 
 }
 
+
+.receita h3 {
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.receita {
+    font-size: 1.6rem;
+}
+
 .receitaPrincipal{
   position: static;
 }
 
+.receita ol, ul{
+    list-style: inside;
+    color: var(--colortextP);
+    line-height: 2.5rem;
+    margin-top: 2rem;
+}
 
 .receitaPrincipal.is-open{
   position: fixed;
@@ -149,3 +165,4 @@ article.menuIa.active {
 
 
 body.modal-open{ overflow: hidden; }
+
